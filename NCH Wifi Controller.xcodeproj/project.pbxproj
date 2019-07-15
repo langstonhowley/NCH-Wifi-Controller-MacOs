@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0FFA8DB22DCB1EB00890C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA8DA22DCB1EB00890C7E /* AppDelegate.swift */; };
+		D0FFA8DD22DCB1EB00890C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA8DC22DCB1EB00890C7E /* ViewController.swift */; };
+		D0FFA8DF22DCB1ED00890C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FFA8DE22DCB1ED00890C7E /* Assets.xcassets */; };
+		D0FFA8E222DCB1ED00890C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FFA8E022DCB1ED00890C7E /* Main.storyboard */; };
+		D0FFA8EE22DCB1ED00890C7E /* NCH_Wifi_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA8ED22DCB1ED00890C7E /* NCH_Wifi_ControllerTests.swift */; };
+		D0FFA8F922DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA8F822DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0FFA8EA22DCB1ED00890C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FFA8CF22DCB1EB00890C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FFA8D622DCB1EB00890C7E;
+			remoteInfo = "NCH Wifi Controller";
+		};
+		D0FFA8F522DCB1ED00890C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FFA8CF22DCB1EB00890C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FFA8D622DCB1EB00890C7E;
+			remoteInfo = "NCH Wifi Controller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0FFA8D722DCB1EB00890C7E /* NCH Wifi Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NCH Wifi Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FFA8DA22DCB1EB00890C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0FFA8DC22DCB1EB00890C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0FFA8DE22DCB1ED00890C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0FFA8E122DCB1ED00890C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0FFA8E322DCB1ED00890C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FFA8E422DCB1ED00890C7E /* NCH_Wifi_Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NCH_Wifi_Controller.entitlements; sourceTree = "<group>"; };
+		D0FFA8E922DCB1ED00890C7E /* NCH Wifi ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NCH Wifi ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FFA8ED22DCB1ED00890C7E /* NCH_Wifi_ControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCH_Wifi_ControllerTests.swift; sourceTree = "<group>"; };
+		D0FFA8EF22DCB1ED00890C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FFA8F422DCB1ED00890C7E /* NCH Wifi ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NCH Wifi ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FFA8F822DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCH_Wifi_ControllerUITests.swift; sourceTree = "<group>"; };
+		D0FFA8FA22DCB1ED00890C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FFA8D422DCB1EB00890C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FFA8E622DCB1ED00890C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FFA8F122DCB1ED00890C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FFA8CE22DCB1EB00890C7E = {
+			isa = PBXGroup;
+			children = (
+				D0FFA8D922DCB1EB00890C7E /* NCH Wifi Controller */,
+				D0FFA8EC22DCB1ED00890C7E /* NCH Wifi ControllerTests */,
+				D0FFA8F722DCB1ED00890C7E /* NCH Wifi ControllerUITests */,
+				D0FFA8D822DCB1EB00890C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FFA8D822DCB1EB00890C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FFA8D722DCB1EB00890C7E /* NCH Wifi Controller.app */,
+				D0FFA8E922DCB1ED00890C7E /* NCH Wifi ControllerTests.xctest */,
+				D0FFA8F422DCB1ED00890C7E /* NCH Wifi ControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FFA8D922DCB1EB00890C7E /* NCH Wifi Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0FFA8DA22DCB1EB00890C7E /* AppDelegate.swift */,
+				D0FFA8DC22DCB1EB00890C7E /* ViewController.swift */,
+				D0FFA8DE22DCB1ED00890C7E /* Assets.xcassets */,
+				D0FFA8E022DCB1ED00890C7E /* Main.storyboard */,
+				D0FFA8E322DCB1ED00890C7E /* Info.plist */,
+				D0FFA8E422DCB1ED00890C7E /* NCH_Wifi_Controller.entitlements */,
+			);
+			path = "NCH Wifi Controller";
+			sourceTree = "<group>";
+		};
+		D0FFA8EC22DCB1ED00890C7E /* NCH Wifi ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FFA8ED22DCB1ED00890C7E /* NCH_Wifi_ControllerTests.swift */,
+				D0FFA8EF22DCB1ED00890C7E /* Info.plist */,
+			);
+			path = "NCH Wifi ControllerTests";
+			sourceTree = "<group>";
+		};
+		D0FFA8F722DCB1ED00890C7E /* NCH Wifi ControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FFA8F822DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift */,
+				D0FFA8FA22DCB1ED00890C7E /* Info.plist */,
+			);
+			path = "NCH Wifi ControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FFA8D622DCB1EB00890C7E /* NCH Wifi Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FFA8FD22DCB1ED00890C7E /* Build configuration list for PBXNativeTarget "NCH Wifi Controller" */;
+			buildPhases = (
+				D0FFA8D322DCB1EB00890C7E /* Sources */,
+				D0FFA8D422DCB1EB00890C7E /* Frameworks */,
+				D0FFA8D522DCB1EB00890C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NCH Wifi Controller";
+			productName = "NCH Wifi Controller";
+			productReference = D0FFA8D722DCB1EB00890C7E /* NCH Wifi Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0FFA8E822DCB1ED00890C7E /* NCH Wifi ControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FFA90022DCB1ED00890C7E /* Build configuration list for PBXNativeTarget "NCH Wifi ControllerTests" */;
+			buildPhases = (
+				D0FFA8E522DCB1ED00890C7E /* Sources */,
+				D0FFA8E622DCB1ED00890C7E /* Frameworks */,
+				D0FFA8E722DCB1ED00890C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FFA8EB22DCB1ED00890C7E /* PBXTargetDependency */,
+			);
+			name = "NCH Wifi ControllerTests";
+			productName = "NCH Wifi ControllerTests";
+			productReference = D0FFA8E922DCB1ED00890C7E /* NCH Wifi ControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0FFA8F322DCB1ED00890C7E /* NCH Wifi ControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FFA90322DCB1ED00890C7E /* Build configuration list for PBXNativeTarget "NCH Wifi ControllerUITests" */;
+			buildPhases = (
+				D0FFA8F022DCB1ED00890C7E /* Sources */,
+				D0FFA8F122DCB1ED00890C7E /* Frameworks */,
+				D0FFA8F222DCB1ED00890C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FFA8F622DCB1ED00890C7E /* PBXTargetDependency */,
+			);
+			name = "NCH Wifi ControllerUITests";
+			productName = "NCH Wifi ControllerUITests";
+			productReference = D0FFA8F422DCB1ED00890C7E /* NCH Wifi ControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FFA8CF22DCB1EB00890C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nextek Power Systems";
+				TargetAttributes = {
+					D0FFA8D622DCB1EB00890C7E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D0FFA8E822DCB1ED00890C7E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D0FFA8D622DCB1EB00890C7E;
+					};
+					D0FFA8F322DCB1ED00890C7E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D0FFA8D622DCB1EB00890C7E;
+					};
+				};
+			};
+			buildConfigurationList = D0FFA8D222DCB1EB00890C7E /* Build configuration list for PBXProject "NCH Wifi Controller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0FFA8CE22DCB1EB00890C7E;
+			productRefGroup = D0FFA8D822DCB1EB00890C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FFA8D622DCB1EB00890C7E /* NCH Wifi Controller */,
+				D0FFA8E822DCB1ED00890C7E /* NCH Wifi ControllerTests */,
+				D0FFA8F322DCB1ED00890C7E /* NCH Wifi ControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FFA8D522DCB1EB00890C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FFA8DF22DCB1ED00890C7E /* Assets.xcassets in Resources */,
+				D0FFA8E222DCB1ED00890C7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FFA8E722DCB1ED00890C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FFA8F222DCB1ED00890C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FFA8D322DCB1EB00890C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FFA8DD22DCB1EB00890C7E /* ViewController.swift in Sources */,
+				D0FFA8DB22DCB1EB00890C7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FFA8E522DCB1ED00890C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FFA8EE22DCB1ED00890C7E /* NCH_Wifi_ControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FFA8F022DCB1ED00890C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FFA8F922DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0FFA8EB22DCB1ED00890C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FFA8D622DCB1EB00890C7E /* NCH Wifi Controller */;
+			targetProxy = D0FFA8EA22DCB1ED00890C7E /* PBXContainerItemProxy */;
+		};
+		D0FFA8F622DCB1ED00890C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FFA8D622DCB1EB00890C7E /* NCH Wifi Controller */;
+			targetProxy = D0FFA8F522DCB1ED00890C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0FFA8E022DCB1ED00890C7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FFA8E122DCB1ED00890C7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FFA8FB22DCB1ED00890C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0FFA8FC22DCB1ED00890C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D0FFA8FE22DCB1ED00890C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NCH Wifi Controller/NCH_Wifi_Controller.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
+				INFOPLIST_FILE = "NCH Wifi Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextek.wifi-controller.NCH-Wifi-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0FFA8FF22DCB1ED00890C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NCH Wifi Controller/NCH_Wifi_Controller.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
+				INFOPLIST_FILE = "NCH Wifi Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextek.wifi-controller.NCH-Wifi-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0FFA90122DCB1ED00890C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
+				INFOPLIST_FILE = "NCH Wifi ControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextek.wifi-controller.NCH-Wifi-ControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCH Wifi Controller.app/Contents/MacOS/NCH Wifi Controller";
+			};
+			name = Debug;
+		};
+		D0FFA90222DCB1ED00890C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
+				INFOPLIST_FILE = "NCH Wifi ControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextek.wifi-controller.NCH-Wifi-ControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCH Wifi Controller.app/Contents/MacOS/NCH Wifi Controller";
+			};
+			name = Release;
+		};
+		D0FFA90422DCB1ED00890C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
+				INFOPLIST_FILE = "NCH Wifi ControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextek.wifi-controller.NCH-Wifi-ControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NCH Wifi Controller";
+			};
+			name = Debug;
+		};
+		D0FFA90522DCB1ED00890C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
+				INFOPLIST_FILE = "NCH Wifi ControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextek.wifi-controller.NCH-Wifi-ControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NCH Wifi Controller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FFA8D222DCB1EB00890C7E /* Build configuration list for PBXProject "NCH Wifi Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FFA8FB22DCB1ED00890C7E /* Debug */,
+				D0FFA8FC22DCB1ED00890C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FFA8FD22DCB1ED00890C7E /* Build configuration list for PBXNativeTarget "NCH Wifi Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FFA8FE22DCB1ED00890C7E /* Debug */,
+				D0FFA8FF22DCB1ED00890C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FFA90022DCB1ED00890C7E /* Build configuration list for PBXNativeTarget "NCH Wifi ControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FFA90122DCB1ED00890C7E /* Debug */,
+				D0FFA90222DCB1ED00890C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FFA90322DCB1ED00890C7E /* Build configuration list for PBXNativeTarget "NCH Wifi ControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FFA90422DCB1ED00890C7E /* Debug */,
+				D0FFA90522DCB1ED00890C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0FFA8CF22DCB1EB00890C7E /* Project object */;
+}
