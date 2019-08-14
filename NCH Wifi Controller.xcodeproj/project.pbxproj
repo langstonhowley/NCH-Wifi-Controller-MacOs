@@ -13,6 +13,10 @@
 		D0FFA8E222DCB1ED00890C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FFA8E022DCB1ED00890C7E /* Main.storyboard */; };
 		D0FFA8EE22DCB1ED00890C7E /* NCH_Wifi_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA8ED22DCB1ED00890C7E /* NCH_Wifi_ControllerTests.swift */; };
 		D0FFA8F922DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA8F822DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift */; };
+		D0FFA90722DCBA8A00890C7E /* SearchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA90622DCBA8A00890C7E /* SearchDelegate.swift */; };
+		D0FFA90A22DCF59500890C7E /* PairDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA90922DCF59500890C7E /* PairDelegate.swift */; };
+		D0FFA90C22DE30EF00890C7E /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA90B22DE30EF00890C7E /* Connector.swift */; };
+		D0FFA90E22DE31A600890C7E /* ConnectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFA90D22DE31A600890C7E /* ConnectDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,11 @@
 		D0FFA8F422DCB1ED00890C7E /* NCH Wifi ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NCH Wifi ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FFA8F822DCB1ED00890C7E /* NCH_Wifi_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCH_Wifi_ControllerUITests.swift; sourceTree = "<group>"; };
 		D0FFA8FA22DCB1ED00890C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FFA90622DCBA8A00890C7E /* SearchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchDelegate.swift; path = "NCH Wifi Controller/SearchDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		D0FFA90822DCCB5600890C7E /* NCH Wifi Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NCH Wifi Controller.entitlements"; sourceTree = "<group>"; };
+		D0FFA90922DCF59500890C7E /* PairDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairDelegate.swift; sourceTree = "<group>"; };
+		D0FFA90B22DE30EF00890C7E /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		D0FFA90D22DE31A600890C7E /* ConnectDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +105,13 @@
 		D0FFA8D922DCB1EB00890C7E /* NCH Wifi Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D0FFA90822DCCB5600890C7E /* NCH Wifi Controller.entitlements */,
 				D0FFA8DA22DCB1EB00890C7E /* AppDelegate.swift */,
+				D0FFA90622DCBA8A00890C7E /* SearchDelegate.swift */,
+				D0FFA90D22DE31A600890C7E /* ConnectDelegate.swift */,
 				D0FFA8DC22DCB1EB00890C7E /* ViewController.swift */,
+				D0FFA90B22DE30EF00890C7E /* Connector.swift */,
+				D0FFA90922DCF59500890C7E /* PairDelegate.swift */,
 				D0FFA8DE22DCB1ED00890C7E /* Assets.xcassets */,
 				D0FFA8E022DCB1ED00890C7E /* Main.storyboard */,
 				D0FFA8E322DCB1ED00890C7E /* Info.plist */,
@@ -192,6 +206,11 @@
 				TargetAttributes = {
 					D0FFA8D622DCB1EB00890C7E = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					D0FFA8E822DCB1ED00890C7E = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -254,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FFA90A22DCF59500890C7E /* PairDelegate.swift in Sources */,
+				D0FFA90E22DE31A600890C7E /* ConnectDelegate.swift in Sources */,
 				D0FFA8DD22DCB1EB00890C7E /* ViewController.swift in Sources */,
+				D0FFA90722DCBA8A00890C7E /* SearchDelegate.swift in Sources */,
+				D0FFA90C22DE30EF00890C7E /* Connector.swift in Sources */,
 				D0FFA8DB22DCB1EB00890C7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +423,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -408,6 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INSTALL_PATH[sdk=macosx10.14]" = /Applications;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -421,7 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "NCH Wifi Controller/NCH_Wifi_Controller.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "NCH Wifi Controller/NCH Wifi Controller.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
@@ -440,7 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "NCH Wifi Controller/NCH_Wifi_Controller.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "NCH Wifi Controller/NCH Wifi Controller.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W7ZQ8C8EP6;
